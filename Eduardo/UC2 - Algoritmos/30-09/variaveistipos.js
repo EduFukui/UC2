@@ -31,3 +31,4 @@ typeof VAZIO
 
 
 
+let resposta = alert("oi")

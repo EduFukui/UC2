@@ -1,6 +1,6 @@
 
 let primeiroNome = 'Eduardo'
-let filmeFavorito = 'Seishun Buta Yarou Wa Yumemiru Shoujo'
-let musicaFavorita = 'Fukashigi no Karte'
+let filmeFavorito = 'Pretty Woman'
+let musicaFavorita = 'Stay with me'
 
-console.log(`Meu nome é ${primeiroNome}, meu filme favorito é o ${filmeFavorito} e minha musica favorita é ${musicaFavorita}.`)
+console.log(`Meu nome é ${primeiroNome}, meu filme favorito é ${filmeFavorito} e minha musica favorita é ${musicaFavorita}.`)
