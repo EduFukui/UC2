@@ -1,17 +1,19 @@
-let array
-console.log('a. ', array)
-// vai imprimir (a. "oq tiver dentro do array( no caso nada)")
-array = null
-console.log('b. ', array)
 
-array = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-console.log('c. ', array.length)
 
-let i = 0
-console.log('d. ', array[i])
 
-array[i+1] = 19
-console.log('e. ', array)
 
-const valor = array[i+6]
-console.log('f. ', valor)
+
+
+let listaCompras = ['pao', 'ovo']
+
+
+
+//assim se imprime um array usando for
+for (let i = 0; i < listaCompras.length; i++) {console.log(listaCompras[i])}
+
+
+//metodos de array 
+// push = add ao array
+// pop = retira da lista
+// includes = verifica um item no array
+// splice exclue n elementos de uma posicao (n,m,o,...) - n= mostra onde ira excluir (a partir).       m= quantidade, o=oq colocar no lugar.  os demais(...) = oq vai no lugar
