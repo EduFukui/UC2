@@ -1,3 +1,4 @@
+// exercicio 1
 const filme = {
     nome: "Auto da Compadecida", 
     ano: 2000, 
@@ -18,7 +19,7 @@ console.log(filme.transmissoesHoje[2])
 
 // vai ser impresso "MatheusnNachtergaele   \n  Virginia Cavendish   \n    Globo", horario: "14h  "
 
-
+// exercicio 2
 const cachorro = {
     nome: "Juca", 
     idade: 3, 
@@ -40,7 +41,7 @@ console.log(tartaruga)
 
 //B) Os tres pontos copiam o objeto que foi definido ex: (... gato) vai copiar tudo aquilo que estiver dentro do objeto gato, e caso queira pode-se adcionar mais atributos ao novo objeto criado
 
-
+// exercicio 3
 function minhaFuncao(objeto, propriedade) {
     return objeto[propriedade]
 }
@@ -54,5 +55,6 @@ const pessoa = {
 console.log(minhaFuncao(pessoa, "backender"))
 console.log(minhaFuncao(pessoa, "altura"))
 
-// A) vai ser impresso: " nome: "Caio", idade: 23, backender: false ,backender"                         " nome: "Caio", idade: 23, backender: false ,altura"
-//
+// A) vai ser impresso: "falso por conta de backender ser = falso"
+// e "undefined por que altura nao foi definido"
+// B) a funcao diz que pessoa é o objeto e a propriedade seria algo que esta dentro do objeto, fazendo ele procurar altura e backender dentro do objeto, como altura n tem ela é indefinida e backender = falso
