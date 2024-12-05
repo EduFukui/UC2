@@ -245,11 +245,17 @@ let MochilaDoTreinador = [
     { nome: 'Charmander', tipo: 'Fogo', nivel: 10}
 ]
 
-let TiposDePokemon = ("")
+//let TiposDePokemon = ("")
 
 
 function adicionarPokemon () {
-    console.log("\nEscolha um Tipo de Pokemon: \n1. Normal\n2. Fogo\n3. Água\n4. Elétrico\n5. Grama\n6. Gelo\n7. Lutador\n8. Venenoso\n9. Terra\n10. Voador\n11. Psíquico\n12. Inseto\n13. Rocha\n14. Fantasma\n15. Dragão\n16. Sombrio\n17. Aço\n18. Fada ");
+    console.log("\nEscolha um Tipo de Pokemon: \n1. Normal\n2. Fogo\n3. Água\n4. Elétrico\n5. Grama\n6. Gelo\n7. Lutador\n8. Venenoso\n9. Terra\n10. Voador\n11. Psíquico\n12. Inseto\n13. Rocha\n14. Fantasma\n15. Dragão\n16. Sombrio\n17. Aço\n18. Fada\n ");
+
+    const EscolhaDeTipo = readline.questionInt('Digite o numero conforme o tipo de pokemon que deseja: ')
+
+    console.log("\nEscolha uma geracao: \n1° Geracao\n2° Geracao\n3° Geracao\n4° Geracao\n5° Geracao\n6° Geracao\n7° Geracao\n8° Geracao\n9° Geracao\n ");
+
+    const EscolhaDeGeracao = readline.questionInt('Digite o numero conforme a geracao de pokemon que deseja: ')
 
 
     //if (PokemonDisp.tipo = ) {}

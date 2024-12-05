@@ -294,7 +294,7 @@ function removerPok () {
 
 
 function exibirMenu () {
-    let opcao;
+    let opcao; 
     while (true) {
         opcao = readline.questionInt("\nEscolha uma opcao: \n1. Adicionar Pokemon a mochila \n2. Ver Pokemons na mochila \n3. Remover Pokemon da mochila \n4. Sair \n");
         switch (opcao) {
