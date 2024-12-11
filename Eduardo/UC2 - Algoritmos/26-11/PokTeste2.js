@@ -257,13 +257,16 @@ function adicionarPokemon () {
 
     const EscolhaDeGeracao = readline.questionInt('Digite o numero conforme a geracao de pokemon que deseja: ')
 
+    console.log(`\nVoce escolheu ver pokemons do tipo ${EscolhaDeTipo} e da ${EscolhaDeGeracao}`)
+}
 
-    //if (PokemonDisp.tipo = ) {}
+
+//if (PokemonDisp.tipo = ) {}
 
 
 
 /*
-    for (let i = 0; i < PokemonDisp.length; i++) {console.log(`${i+1}. ${PokemonDisp[i].nome}`)}
+  for (let i = 0; i < PokemonDisp.length; i++) {console.log(`${i+1}. ${PokemonDisp[i].nome}`)}
 
 
 
@@ -279,6 +282,6 @@ function adicionarPokemon () {
     }
     else {console.log('Nenhum pokemon disponivel.');
     } */
-} 
+
 
 adicionarPokemon() 
